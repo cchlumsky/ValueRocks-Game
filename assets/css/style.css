@@ -1,0 +1,94 @@
+#container-fluid {
+	width: 75%;
+	height: 90%px;
+	padding-left: 25%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+	background-size: 75%;
+	border: solid 2px;
+}
+
+h1{
+	background-color: teal;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid white;
+	border-radius: 30px;
+	font-family: Times, serif;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: teal;
+	text-decoration-color: bold, white;
+	width: 70%;
+	clear:both;
+	padding-right: auto;
+	padding-left: auto;
+	margin-margin: 2px;
+	border: solid white;
+	border-radius: 30px;
+}
+
+#guessingNumber {
+	background-color: darkred;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius :10px;
+	font-style: oblique;
+}
+
+#scoreboard {
+	background-color: darkred;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+
+}
+
+#crystals {
+	margin-top: 10px;
+	margin-bottom:20px;
+
+
+}
+
+.crystalImage {
+	height: 100px;
+	border: solid 1px;
+	margin-left: 5px;
+	border-radius: 10px;
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+	border-radius: 60px;
+}
+
+#yts {
+	background: darkred;
+	display: inline;
+	padding: 20px;
+	border: solid black 1px;
+}

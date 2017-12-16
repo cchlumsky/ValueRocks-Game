@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Value Rocks</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<div id="container-fluid">
+	<div id = "wrapper">
+
+		<h1><span><strong>VALUE ROCKS</STRONG></STRONG><span></h1>
+	<br><br>
+		<div id="instructions">
+			<p><h4>Game Instructions</h4><hr>A random number will be automatically produced at the beginning of the game.</p>
+			<p> The player will need to click one of the four "Value Rocks" below to produce a specific value that will be added to your tally.</p>
+			<p> A win will be added to your counter only if you are able to match the random score exactly by using the value of each rocks.</p>
+			<p> Each new game will not only produce a new number but it will also change the value of each rock.  GOOD LUCK!!</p>
+		</div>
+
+		<div class = "container">
+			<div id="guessingNumber">
+				<h2>Number to Guess: <span class="value"></span></h2>
+			</div>
+
+			<div id="scoreboard">
+				<h3><span id="status"></span></h3>
+				<h3>Wins: <span id="win"></span></h3>
+				<h3>Losses: <span id="loss"></span> </h3>
+			</div>
+		</div>
+
+
+		<div id="crystals"></div>
+		<br><br><br>
+		<div id ="totalScore">
+			<h2 id = "yts">Total Score: <span id ="yourScore">0</span></h2>
+
+		</div>
+
+	</div>
+	<!-- adding jQuery -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="game.js"></script>
+		</div>
+</body>
+</html>
